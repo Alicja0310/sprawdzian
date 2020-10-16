@@ -1,0 +1,115 @@
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    text-align: center;
+    background-color: #007bff;
+}
+
+.btn {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+    background-color: #4e9aeb;
+}
+
+.button{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #007bff; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 100%;
+}
+
+.button1{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #007bff;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #ebe9d7;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+}
+
+.grid-item {
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.img1 {
+    border-radius: 50%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
+
+.h2 {
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.img2 {
+    width: 500px;
+    height: 400px;
+}
+
+.img2:hover {
+    animation-name: zoom;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    from {
+        width: 500px;
+        height: 400px;
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.img-animation {
+    overflow: hidden;
+}
+
+.icon {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 350px;
+    color: #007bff;
+    font-size: 40px;
+}
+.icon:hover {
+    color: salmon;
+}
